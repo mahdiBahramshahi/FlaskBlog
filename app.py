@@ -8,3 +8,8 @@ app = Flask(__name__)
 def index():
     return "Blog Home"
 
+
+from mod_admin import admin
+
+app.register_blueprint(admin)
+
