@@ -10,7 +10,7 @@ db = SQLAlchemy(app)
 migrate = Migrate(app , db)
 
 
-
+from views import index
 
 from mod_admin import admin
 from mod_users import users
