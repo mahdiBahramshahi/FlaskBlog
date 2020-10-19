@@ -11,4 +11,4 @@ def index():
 def login():
     session['name'] = 'mahdi'
     print(session)
-    return "<h1>1<h1/>"
+    return "1"
